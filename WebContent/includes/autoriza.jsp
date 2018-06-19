@@ -1,0 +1,13 @@
+<%
+String vlogin    = (session.getAttribute("login")==null) ? "" : session.getAttribute("login").toString();
+String vsenha    = (session.getAttribute("senha")==null) ? "" : session.getAttribute("senha").toString();
+String vdominio  = (request.getHeader("Referer")==null) ? "-" : request.getHeader("Referer");
+
+//Se a requisição não tiver origem no domínio do TRE-RJ, ou se o usuário não foi informado
+//a aplicação irá redirecionar o usuário para a tela de login
+if(vlogin.compareToIgnoreCase("")==0)
+{
+   //session.invalidate();
+   response.sendRedirect("/gecoi.3.0/login/login.jsp?msg=A aplicação foi encerrada. Por favor, entre com o seu usuário e senha novamente.");
+}
+%>

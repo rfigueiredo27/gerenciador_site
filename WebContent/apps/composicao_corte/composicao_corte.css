@@ -1,0 +1,87 @@
+/* CSS Document */
+h1 {
+	text-align:center;
+	font-size:25px;
+}
+
+#estilo_azul {
+   display: block;
+}
+
+#estilo_azul thead th{
+    vertical-align: middle;
+	text-align:left;
+	border:none;
+	background-color: #ffffff;
+	color: #000000;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	height:30px;
+}
+
+#estilo_azul {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-size: 12px;
+	  line-height:15px;
+	  letter-spacing:0.01em;
+	  border-collapse:collapse;
+}
+
+#estilo_azul td {
+   border: #8CACBB solid 1px;
+   height:20px;	
+   padding: 3px;
+}
+
+#estilo_azul tr:hover {
+	background-color: #f1f1f1;
+	color: #000000;
+}
+
+#estilo_azul TH {
+	text-align:center;
+	color: #000;
+	background:#F3F3F3;
+	margin-left:1px;
+	height:20px;
+    border: #8CACBB solid 1px;
+	padding: 5px
+}
+
+#estilo_azul A {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#estilo_azul A:visited { color: #759BAE; text-decoration: none}
+#estilo_azul A:link    { color: #759BAE; text-decoration: none}
+#estilo_azul A:active  { color: #759BAE; text-decoration: none}
+#estilo_azul A:hover   { color: #000; text-decoration: underline}
+
+#estilo_azul .zebrado { background-color: #F3F3F3;}
+
+/*Classes*/
+.input_nome {
+	width:200px;
+}
+
+.input_cargo {
+	width:150px;
+}
+
+.input_inicio, .input_final {
+	width:80px;
+}
+
+.input_bienio {
+	width:30px;
+	text-align:center;
+}
+
+.input_obs {
+	width:100px;
+}
+
+.input_curriculo {
+	width:100px;
+}

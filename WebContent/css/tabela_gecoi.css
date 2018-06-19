@@ -1,0 +1,31 @@
+/* CSS Document */
+
+#conteudo table#tb_gecoi {
+	border-collapse: collapse;
+	border: solid 2px #777777;
+	width: 98%;
+	margin: 0 auto;
+	font: Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+
+#conteudo table#tb_gecoi thead tr th{
+	background-color:#ECECEC;
+	text-align:center;
+	border-bottom: solid 2px #777777;
+	border-left: solid 2px #777777;
+}
+
+#conteudo table#tb_gecoi tr td, tr th{
+	border: dotted 1px #999999;
+}
+#conteudo table#tb_gecoi tr:hover{
+	background-color:#ccc;
+}
+
+#conteudo table#tb_gecoi tfoot tr td{
+	text-align:center;
+	border-top: solid 2px #000;
+}
+

@@ -1,0 +1,120 @@
+#cadastradas_ano fieldset
+{
+    
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	text-align:center;
+	border-radius:5px;
+	width: 30%;
+}
+#cadastradas_ano legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#cadastradas_ano select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:left;
+	width:100%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}
+
+#cadastradas_filtro fieldset
+{
+
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	text-align:center;
+	border-radius:5px;
+}
+#cadastradas_filtro legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#cadastradas_filtro select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:left;
+	width:100%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}
+
+
+#divfiltro fieldset
+{
+    width:345px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#divfiltro legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#divfiltro select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:left;
+	width:100%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}
+#divfiltro input
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+	width:100%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#botao2 {
+    clear: both;
+}
+
+#botao2 input[type="button"] {
+    font-size: 13px;
+    background: #ECECEC;
+    color: #777777;
+    border: #777777 solid 1px;
+    height: 60%;
+    width: 50%;
+}
+
+
+
+
+
+

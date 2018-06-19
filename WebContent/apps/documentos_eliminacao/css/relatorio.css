@@ -1,0 +1,106 @@
+/* 
+Este css é utilizado par fotmatar uma tela de pesquisa com cabeçalho, menu e lista de itens.
+*/
+/*#relatorio
+{
+	 width:100%;
+	 height:120px;
+	 margin-top:30px;
+}*/
+
+#relatorio_modalidade
+{
+	 width:420px;
+	 height:100px;
+	 float:left;
+}
+
+#relatorio_modalidade fieldset
+{
+    width:345px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#relatorio_modalidade legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#relatorio_modalidade select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:left;
+	width:90%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}
+
+#relatorio_ano_descricao
+{
+	 width:750px;
+	 height:100px;
+	 float:left;	  
+}
+
+#relatorio_ano_descricao fieldset
+{
+    width:705px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#relatorio_ano_descricao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#divAno select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:left;
+	width:100px;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}
+
+#divAno
+{
+	width:120px;
+	float:left;		
+}
+#divDescricao
+{
+	width:580px;
+	float:left;	
+}
+#divDescricao select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:left;
+	width:500px;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}

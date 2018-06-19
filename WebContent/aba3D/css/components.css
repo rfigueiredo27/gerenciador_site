@@ -1,0 +1,37 @@
+/* Geral - Componentes Basicos  */
+* {margin:0; padding:0;}
+
+img, ul, a, fieldset {border: 0; list-style: none}
+a{cursor:pointer; text-decoration:none;}
+a:hover {text-decoration: none;}
+p {margin: 0.5em 0; /* line-height: 1.5; */}
+p a {text-decoration: none; color:#666;}
+
+
+option {font-size: 1.1em;}
+
+/*  TABS */
+.tabs {background:  url(/gecoi/aba3D/img/bgTabsLeft.gif) no-repeat left 7px; zoom: 1; padding: 7px 0 0 9px; margin-bottom: 10px;}
+
+.tabs ul {background: url(/gecoi/aba3D/img/bgTabsRight.gif) no-repeat right top; zoom: 1; padding-bottom: 132px; margin-bottom: -120px; clear: both; min-height:29px; }
+
+.tabs ul:after {content: "."; display: block; clear: both; visibility: hidden; height: 0; font-size: 0;}
+
+.tabs ul li {float:left; padding: 0 8px 0 0; background: url(/gecoi/aba3D/img/tabRight.gif) no-repeat right top; margin-right: -10px; margin-top: 3px; position:relative;}
+
+.tabs ul li a,.tabs ul li h2  {display: block; background: url(/gecoi/aba3D/img/tabLeft.gif) no-repeat left top; padding:5px 10px 2px 20px; font-size: 14px; color: #666;}
+
+.tabs ul li.selected {z-index: 100; font-size: 15px; font-weight: bold; margin-top: -7px; margin-bottom: -29px; margin-right: -7px; background: url(/gecoi/aba3D/img/tabRightSelected.gif) no-repeat right top;}
+
+.tabs ul li.selected a,.tabs ul li.selected h2 {padding: 10px 10px 20px 20px; background: url(/gecoi/aba3D/img/tabLeftSelected.gif) no-repeat left top;}
+
+.tabs ul li span {display: block; background: url(/gecoi/aba3D/img/tabLeft.gif) no-repeat left top;  font-size: 1.2em; color: #666;}
+
+.tabs .allDescriptionNaveg { display:none; }
+
+/* Componente Ficha Técnica */
+.productInformation .listFeatureTecnica li{ float: left; overflow: hidden; margin: 10px 30px 20px 0; zoom:1;}
+.productInformation .ficheTechnique {clear: left; font-size:1.1em; margin: 0 15px; position:relative;}
+.productInformation .promotion {margin-bottom:50px;}
+.productInformation .ficheTechnique a { font-size:12px; color:#333; text-decoration:none; }
+.productInformation .ficheTechnique a:hover{ font-size:12px; color:#92A42C; text-decoration:none; }

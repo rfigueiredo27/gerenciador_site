@@ -1,0 +1,338 @@
+#botao input[type="submit"] {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #ECECEC;
+    color: #777777;
+    border: #777777 solid 1px;
+    height: 40px;
+    min-width: 200px;
+}
+
+
+legend
+{
+	margin-bottom:0px;
+	border-bottom: none;
+	width: auto;
+}
+
+#flex
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#email
+{
+	width: 50%;
+}
+
+#processo
+{
+	width: 25%;
+}
+
+#data
+{
+	width: 25%;
+}
+
+
+
+#data fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#data legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#data input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	text-align:center;
+	width:95%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+
+#processo fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#processo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#processo input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	text-align:center;
+	width:95%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+
+#email fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#email legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#email input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	text-align:center;
+	width:95%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#email input[type="email"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	text-align:center;
+	width:95%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#email select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:left;
+	width:90%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+	border-radius:5px;
+}
+#email select:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#nome
+{
+	width: 100%;
+}
+
+#nome textarea
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:50px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#nome fieldset
+{
+    width:90%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#nome legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#nome input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	text-align:left;
+	width:95%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#nome input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	margin-left: 5%;
+	text-align:left;
+	width:90%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+
+#mensagem
+{
+	width: 100%;
+}
+
+#mensagem fieldset
+{
+    width:90%;
+	min-height:250px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#mensagem legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#mensagem input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	text-align:left;
+	width:90%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#mensagem textarea
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:200px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#mensagem input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:gray;
+	margin-left: 5%;
+	text-align:left;
+	width:90%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+::-webkit-input-placeholder {
+   color: #BDBDBD;
+   font-style:italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #BDBDBD;
+   font-style:italic;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #BDBDBD;
+   font-style:italic;  
+}
+
+:-ms-input-placeholder {  
+   color: #BDBDBD;
+   font-style:italic;  
+}
+
+
+
+

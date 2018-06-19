@@ -1,0 +1,14 @@
+/* 
+Este css é utilizado para tornar objetos invisíveis para uma impressora
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+.item_formulario {
+	display:none;
+}
+
+#bt_imprimir,#form1,#menu,#barra_ferramentas,#extrato,#informacoes,#botao,#tabs ul,#relatorio {
+	display:none;
+}

@@ -1,0 +1,369 @@
+/* 
+Este css é utilizado par fotmatar uma tela de pesquisa com cabeçalho, menu e lista de itens.
+*/
+#altera_dados
+{
+	 width:100%;
+	 min-height:500px;
+}
+#altera_dados fieldset
+{
+    width:98%;
+	height:450px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_dados legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#altera_tipo
+{
+	 width:320px;
+	 height:100px;
+	 float:left;
+	
+}
+
+#altera_tipo fieldset
+{
+    width:280px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_tipo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#altera_tipo select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	text-align:left;
+	width:260px;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}
+
+#altera_pregao
+{
+	 width:250px;
+	 height:100px;
+	 float:left;	  
+}
+
+#altera_pregao fieldset
+{
+    width:210px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_pregao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#altera_pregao input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	text-align:center;
+	width:80px;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#altera_processo
+{
+	 width:270px;
+	 height:100px;
+	 float:left;  
+}
+
+#altera_processo fieldset
+{
+    width:230px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_processo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#altera_processo input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	text-align:center;
+	width:80px;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#altera_data
+{
+	 width:810px;
+	 height:100px;
+	 float:left;
+	  
+}
+#altera_data fieldset
+{
+    width:200px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_data input
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	text-align:center;
+	width:115px;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#altera_data legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#altera_objeto
+{
+	 width:100%;
+	 height:150px;
+	 float:left;
+	 
+}
+#altera_objeto fieldset
+{
+    width:94%;
+	height:80px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 64px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+
+#altera_objeto textarea
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:50px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#altera_objeto legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#altera_arquivo
+{
+	 width:100%;
+	 margin-top:30px;
+	 min-height:300px;
+
+}
+#altera_arquivo fieldset
+{
+    width:54%;
+	height:250px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 64px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_arquivo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#descricao
+{
+	 width:100%;
+	 height:40px;
+	 margin-top:30px;
+	 margin-left: 25%;
+	 min-height:50px;
+	 text-align:center;
+	 float:left;
+
+}
+#numero_processo
+{
+	 width:30%;
+	 height:80px;
+	 margin-top:30px;
+	 margin-left: 25%;
+	 min-height:50px;
+	 text-align:center;
+	 float:left;
+
+}
+#numero_pregao
+{
+	 width:30%;
+	 height:80px;
+	 margin-top:30px;
+	 min-height:50px;
+	 text-align:center;
+	 float:left;
+}
+#numero p
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+	font-weight:400;
+}
+
+#campoArquivo
+{
+	 width:100%;
+	 height:50px;
+	 text-align:left;
+	 font-family: Tahoma, Arial, Helvetica, sans-serif;
+	 font-size:15px;
+	 color:#777777;
+	 font-weight:400;
+	 float:left;
+}
+#anexo
+{
+	 width:98%;
+	 height:30px;
+	 margin-top:10px;
+	 text-align:right;
+}
+#altera_anexo
+{
+	 width:100%;
+	 min-height:300px;
+
+}
+#altera_anexo fieldset
+{
+    width:54%;
+	height:320px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 64px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_anexo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#altera_anexo input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:30px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#descricao_anexo
+{
+	 width:100%;
+	 height:100px;
+	 margin-bottom:10px;
+	 float:left;
+}
+#descricao_anexo fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 64px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#descricao_anexo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#anexo_tabela
+{
+	 width:100%;
+	 height:90px;
+	 float:left;
+}

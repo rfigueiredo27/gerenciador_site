@@ -1,0 +1,552 @@
+/* 
+Este css é utilizado par fotmatar uma tela de pesquisa com cabeçalho, menu e lista de itens.
+*/
+#botao
+{
+	 width:350px;
+	 height:40px;
+	 padding-top:20px;
+	 clear:both;
+}
+
+#botao input[type="button"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background:#ECECEC;
+	color:#777777;
+	border:#777777 solid 1px;
+	height:32px;
+	width:120px;
+
+}
+/*-------------------------------------------------*/
+#campoArquivo input.arquivo{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	background:#ECECEC;
+	color:#777777;
+	border:#777777 solid 1px;
+	height:32px;
+	width:120px;
+	border:#cccccc solid 1px;
+}
+
+/*-------------------------------------------------*/
+
+#tipo_contrato {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	color:#777777;
+	margin-left:1%;
+	width:25%;
+}
+
+#tipo_contrato fieldset
+{
+    width:85%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#tipo_contrato legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#tipo_contrato select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:1.0em;
+	color:#777777;
+	text-align:left;
+	width:100%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+}
+
+/*-------------------------------------------------*/
+
+#processo_sem_licitacao
+{
+	 width:25%;
+	 height:100px;
+	 float:left;
+	 margin-left:1%;
+}
+#processo_sem_licitacao fieldset
+{
+    width:85%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#processo_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#processo_sem_licitacao input
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:40%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#processo_sem_licitacao input:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+/*-------------------------------------------------*/
+
+#contrato_sem_licitacao
+{
+	 width:25%;
+	 height:100px;
+	 float:left;
+	 margin-left:1%;
+}
+#contrato_sem_licitacao fieldset
+{
+    width:85%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#contrato_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#contrato_sem_licitacao input
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:40%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#contrato_sem_licitacao input:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+/*-------------------------------------------------*/
+
+#vigencia_sem_licitacao
+{
+	 width:25%;
+	 height:100px;
+	 float:left;
+}
+#vigencia_sem_licitacao fieldset
+{
+    width:85%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#vigencia_sem_licitacao input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:45%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#vigencia_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+/*-------------------------------------------------*/
+
+#descricao_sem_licitacao
+{
+	 width:100%;
+	 height:130px;
+	 clear:both;
+	
+}
+#descricao_sem_licitacao fieldset
+{
+    width:74%;
+	height:100px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 64px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+
+#descricao_sem_licitacao textarea
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:50px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#descricao_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+/*-------------------------------------------------*/
+
+#publicao_sem_licitacao
+{
+	 width:100%;
+	 height:130px;
+	 clear:both;
+}
+#publicao_sem_licitacao fieldset
+{
+    width:74%;
+	height:100px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 64px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+
+#publicao_sem_licitacao textarea
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:50px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#publicao_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#publicao_sem_licitacao input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:30%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#publicao_sem_licitacao input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+/*-------------------------------------------------*/
+
+#observacao_sem_licitacao
+{
+	 width:100%;
+	 height:130px;
+	 clear:both;
+}
+#observacao_sem_licitacao fieldset
+{
+    width:74%;
+	height:100px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 64px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+
+#observacao_sem_licitacao textarea
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:50px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#observacao_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+/*-------------------------------------------------*/
+
+#contadorDescrica
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#777777;
+    width:650px;
+	height:10px;
+	margin:0px;
+}
+
+/*-------------------------------------------------*/
+#contrato_ano_sem_licitacao
+{
+	 width:10%;
+	 height:100px;
+	 float:left;
+}
+
+#contrato_ano_sem_licitacao fieldset
+{
+    width:70%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#contrato_ano_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#contrato_ano_sem_licitacao select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:left;
+	width:100%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+/*-------------------------------------------------*/
+
+#contrato_palavra_sem_licitacao
+{
+	 width:400px;
+	 float:left;
+}
+
+#contrato_palavra_sem_licitacao fieldset
+{
+    width:345px;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#contrato_palavra_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#contrato_palavra_sem_licitacao input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+	width:100%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+/*-------------------------------------------------*/
+
+#contrato_tipo_sem_licitcao
+{
+	 width:535px;
+	 height:100px;
+	 clear:both;	
+}
+
+#contrato_tipo_sem_licitcao fieldset
+{
+    width:90%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 0px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#contrato_tipo_sem_licitcao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+.contrato_tipo_sem_licitcao
+{
+	 width:100%;
+	 height:30px;
+	 margin-left:1%;
+	 margin-top:12px;
+}
+
+
+/*-------------------------------------------------*/
+
+.todos{
+  width: 15%;
+  float:left;
+  text-align:left;
+}
+.adesao{
+  width: 53%;
+  float:left;
+  text-align:left;
+}
+.direta{
+  width: 30%;
+  float:left;
+  text-align:left;
+}
+
+/*-------------------------------------------------*/
+#altera_arquivo_sem_licitacao
+{
+	 width:50%;
+	 min-height:300px;
+	 padding-top:20px;
+
+}
+
+#altera_arquivo_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#altera_arquivo_sem_licitacao input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#777777;
+	width:100%;
+	height:30px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+/*-------------------------------------------------*/
+#incluir_arquivo_sem_licitacao
+{
+	 width:100%;
+	 height:100px;
+	 clear:both;
+}
+
+#incluir_arquivo_sem_licitacao fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#incluir_arquivo_sem_licitacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+/*-------------------------------------------------*/

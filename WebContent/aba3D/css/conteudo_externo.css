@@ -1,0 +1,63 @@
+#content_external { font:11px Arial; color:#666; }
+#conteudoInfoReviews { font-size:1.1em; margin:2px 0 0 2px; }
+#linepontilhado { height:10px; margin-bottom:10px; left:0px; display:table; padding-bottom:10px; width:100%; background:transparent url(http://img.submarino.com.br/img/bgDotted.gif) repeat-x scroll left;}
+#conteudoInfoReviews p { margin:15px 2px 0 0;}
+#blockInfoReviews {  display:inline; width:295px; height:280px; float:left; }
+
+/* Css para o video */
+#blockInfoReviews #video-player { margin-bottom:5px; }
+* html #blockInfoReviews #video-player { margin-bottom:13px; }
+#blockInfoReviews #videoFotosInfoReviews ol#text {width:280px; font-size:10px; }
+#blockInfoReviews #videoFotosInfoReviews ol#text a {color: #666666; text-decoration: underline; border:0; }
+#blockInfoReviews #videoFotosInfoReviews ol#text a:hover { display:block; border:0; }
+#blockInfoReviews #videoFotosInfoReviews {height:45px; width:300px;}
+#blockInfoReviews #videoFotosInfoReviews ol { display:inline; text-align:center; list-style:none; float:left; padding-right:4px;  padding-left:4px; margin-top:2px; margin-bottom:5px;}
+#blockInfoReviews #videoFotosInfoReviews ol a { display:block; border:2px solid #E8E8E8;}
+#blockInfoReviews #videoFotosInfoReviews ol a:hover { display:block; border:2px solid #81BD02; }
+
+/* Css para as 4 fotos */
+#blockInfoReviews #fotosInfoReviews ol#text {width:280px; font-size:10px; }
+#blockInfoReviews #fotosInfoReviews ol#text a {color: #666666; text-decoration: underline; border:0; }
+#blockInfoReviews #fotosInfoReviews ol#text a:hover { display:block; border:0; }
+#blockInfoReviews #fotosInfoReviews {height:53px; width:300px;}
+#blockInfoReviews #fotosInfoReviews ol { display:inline; text-align:center; list-style:none; float:left; padding-right:15px;  padding-left:4px; padding-bottom:6px; margin-top:8px; margin-bottom:5px;}
+#blockInfoReviews #fotosInfoReviews ol a { display:block; border:2px solid #E8E8E8;}
+#blockInfoReviews #fotosInfoReviews ol a:hover { display:block; border:2px solid #81BD02; }
+
+#tituloEsq {color:#666666; width:auto; overflow:hidden; font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+#tituloEsq span {color:#81BD02; font-weight: bold; font-size:16px; }
+#tituloDir {color:#666666; float:right; margin-top:-5px; margin-right:10px; }
+
+#tabInfoReviews1 { margin-top:15px;  margin-right:8px; margin-left:292px; color:#81BD02; font-size:12px; }
+* html #tabInfoReviews1 { height:66px;}
+#tabInfoReviews1 #bordaEsqInfo { padding:10px; border-color: #E2E2E2; border-style:solid; border-width:1px; color:#666666; height:35px; background:url(http://img.submarino.com.br/skins/produto/img/avaliacao.gif) no-repeat  scroll left;}
+#tabInfoReviews1 #bordaEsqInfo span { color:#81BD02; font-weight: bold; font-size:24px; margin-left: 105px;}
+
+#tabInfoReviews2 #bordaBox { padding:10px; list-style:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:#F0F0F0;}
+#tabInfoReviews2 #dirProContra { margin-left:80px;}
+* html #tabInfoReviews2 #dirProContra { margin-top:-15px;}
+#tabInfoReviews2 #esqProContra { font-weight:bold;float:left;}
+* html #tabInfoReviews2 #esqProContra { font-weight:bold;float:none;}
+
+#tabInfoReviews2 { width:auto;  margin:10px 8px 0 292px; font-size:12px;   }
+* html #tabInfoReviews2 {margin-right:8px; margin-left:305px; margin:1px 8px 0 303px; }
+
+#conteudoInfoReviews p a:link {color: #569403; text-decoration: underline;}
+#conteudoInfoReviews p a:visited {text-decoration: underline; color: #569403;}
+#conteudoInfoReviews p a:hover {	text-decoration:underline; color: #569403;}
+#conteudoInfoReviews p a:active {text-decoration: underline;	color: #569403;}
+
+#light_Content {display:none;}
+#lightwindow_contents {padding:0 0 10px 10px;}
+.productLightBox .productLight {width:92%;}
+#lightwindow_contents {height:405px;}
+#lightwindow_contents {background:transparent url() no-repeat scroll right bottom;}
+#lightwindow_title_bar {height:30px;overflow:hidden;}
+#lightwindow_contents #infoVert {vertical-align: middle; display: table-cell; width:550px; height:380px; }
+#lightwindow_contents #infoVert img { max-height:400px; max-width:400px;}
+
+#light_Content {display:none;}
+#light_Content2 {display:none;}
+#light_Content3 {display:none;}
+#light_Content4 {display:none;}
+#light_Content5 {display:none;}

@@ -1,0 +1,40 @@
+<%@page contentType="charset=iso-8859-1" import = "java.sql.*" %>
+<%
+//Prepara as variáveis para o acesso ao banco
+Connection con = null;
+Statement statement =  null;
+PreparedStatement pstm = null;
+ResultSet resultSet = null;
+String vsql = "";
+String vbanco = "";
+
+try {
+  //informa ao banco oracle que deve ser utilizado um pool de conexões
+  //vbanco = "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=rj1.tre-rj.gov.br)(PORT=1521)))(CONNECT_DATA=(SID=adm)(SERVER=SHARED)))";
+  vbanco = "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=rjdbs03.tre-rj.gov.br)(PORT=1521)))(CONNECT_DATA=(SID=ursa)(SERVER=SHARED)))";
+
+
+  if (vlogin.compareToIgnoreCase("")!=0)
+  {	
+     //seleciona os dados no banco
+     Class.forName("oracle.jdbc.driver.OracleDriver");
+     con = DriverManager.getConnection(vbanco,vlogin,vsenha);
+  }
+}
+catch (SQLException ex){
+
+  if(ex.getMessage().indexOf("ORA-01017")==0)
+     vmsg = "Acesso negado, usuário/senha inválidos.";
+  else
+  {
+	 if(ex.getMessage().indexOf("Listener")==0)
+         vmsg = "A conexão com o banco falhou (TSN listener), favor reportar o erro à Seção de Administração de Banco de Dados - SEABAD.";	   
+	 else
+         vmsg = "Ocorreu um erro no Banco: " + ex.getMessage();
+  }
+}
+catch (Exception ex){
+   vmsg = "Ocorreu um erro: " + ex.getMessage();
+}
+%>
+<%@include file="identifica_sessao.jsp"%>

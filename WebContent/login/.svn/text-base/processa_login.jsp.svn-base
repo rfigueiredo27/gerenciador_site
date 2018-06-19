@@ -1,0 +1,59 @@
+<%@page language="java" import="java.sql.*" %>
+<%
+//Recebe os parâmetros do formulário
+String vlogin = request.getParameter("name")==null ? "" : request.getParameter("name");
+String vsenha = request.getParameter("password")==null ? "" : request.getParameter("password");
+%>
+<%@include file="/includes/conexao.jsp"%>
+<%
+if (vlogin.compareToIgnoreCase("")!=0 && vmsg.compareToIgnoreCase("")==0)
+{
+   try
+   {
+	  //seleciona os dados no banco
+      Class.forName("oracle.jdbc.driver.OracleDriver");
+      con = DriverManager.getConnection(vbanco,vlogin,vsenha);
+
+      int vqtd_app = 0;
+      vsql = "select Count(ga.id_app) AS app  " +
+             "from gecoi.permissao p, gecoi.grupo_app ga " +
+             "WHERE UPPER(p.logon_usuario)=UPPER(?) AND p.id_grupo(+)=ga.id_grupo";
+	  
+      pstm = con.prepareStatement(vsql);
+      pstm.setString(1,vlogin);
+
+      resultSet = pstm.executeQuery();      
+	  
+      if (resultSet.next())
+	  {  
+	     vqtd_app = Integer.parseInt(resultSet.getString("app"));		 
+	  }
+      else
+	  {
+	     vmsg = "O login e senha informados não tem acesso aos recursos GECOI.";
+	  }
+    
+	  if(vqtd_app>0)
+	  {
+           session.setAttribute("login",vlogin);
+		   session.setAttribute("senha",vsenha);
+		   vmsg = "sucesso";
+	  }
+	  else
+	  {
+  	      vmsg = "O usuário informado não tem acesso a nenhuma APP do GECOI.";
+	  }
+
+    }
+    catch (SQLException ex)
+    {
+       vmsg = "Ocorreu um erro:: " + ex.getMessage();
+    } 
+	finally
+    {
+      if(con!=null && !con.isClosed())
+       con.close();
+    } 
+}
+out.println(vmsg);
+%>

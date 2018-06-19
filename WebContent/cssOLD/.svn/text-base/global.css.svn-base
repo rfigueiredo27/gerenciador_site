@@ -1,0 +1,106 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------
+/* Tags */
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+	background-image:url(/gecoi.3.0/img/bg.jpg);
+	background-repeat:no-repeat;	
+	margin: 0em;
+	padding: 0em;
+}
+
+html {
+	margin: 0em;
+	padding: 0em;
+}
+
+img {
+	border:none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Divs e Id's */
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+#container {
+	margin:0 auto;
+	width:100%;
+	height:auto;
+	margin-top:0;
+}
+
+#topo {
+	margin:0 auto;
+	width:100%;
+	height:29px;
+}
+
+#logo_topo {
+	width:100%;
+	height:auto;
+}
+
+#logo {
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	width:71%;
+	height:63px;
+    cursor: pointer;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+
+#espaco {
+	width:25%;
+	height:63px;
+	float:right;
+	margin-right:20px;
+}
+
+#trabalho{
+	width:100%;
+	height:900px;
+	clear:both;
+}
+
+#menu {
+	margin:0 auto;
+	width:5%;
+	height:500px;
+	float:left;
+}
+
+
+#conteudo {
+	width:66%;
+	height:849px;
+	background-color:#FFF;
+	border:#000 solid 1px;
+	float:left;
+}
+
+#conteudo A {
+	color:#03F;
+}
+
+#conteudo A:visited { color: #03F; text-decoration: none;}
+#conteudo A:link    { color: #03F; text-decoration: none;}
+#conteudo A:active  { color: #03F; text-decoration: none;}
+#conteudo A:hover   { color: #03F; text-decoration: underline;}
+
+#informacoes {
+	background-color:#FFF;
+	border:#000 solid 1px;
+	width:25%;
+	height:849px;
+	float:right;
+	margin-right:20px;
+
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Classes */
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+

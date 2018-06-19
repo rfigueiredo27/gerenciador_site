@@ -1,0 +1,308 @@
+﻿/*-----------------------------------------------------------------------------------------------------------------------------------------------------
+/* Tags */
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+	font-size: 62.5%;
+	background-image:url(/gecoi.3.0/img/bg.jpg);
+	background-repeat:no-repeat;	
+	margin: 0em;
+	padding: 0em;
+}
+
+html {
+	margin: 0em;
+	padding: 0em;
+}
+
+img {
+	border:none;
+	max-width: 100%;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Divs e Id's  para resolição de 1920        Media Queries */ 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1920px) {
+		 	
+#container {
+	margin:0 auto;
+    max-width:1920px;
+	height:auto;
+	margin-top:0;
+}
+
+#barra_ferramentas {
+	margin:0 auto;
+	width:100%;
+	height:29px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.4em;
+	color:#000;
+	font-weight:bold;
+}
+
+#logo {
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	width:73.052093%;
+	height:63px;
+    cursor: pointer;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+
+#menu {
+	margin-right:0.7em;
+	width:05.208333%;
+	min-height:500px;
+	float:left;
+}
+
+
+#conteudo {
+	width:72.916667%;
+	min-height:749px;
+	background-color:#FFF;
+	border:#000 solid 1px;
+	float:left;
+	padding:20px;
+	overflow:auto;
+}
+
+#informacoes {
+	background-color:#ececec;
+	border:#000 solid 0.0625em;
+	width:13.020833%;
+	min-height:749px;
+	float:right;
+	margin-right:1.5625em;
+	padding:1.25em;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.4em;
+	position:relative;
+}
+
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Divs e Id's  para resoliçãp de 1920       Media Queries */ 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Divs e Id's  para resoliçãp de 1280           Media Queries*/ 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1280px) {
+
+#informacoes {
+	display:none;
+    }
+#container {
+	margin:0 auto;
+    max-width:1280px;
+	height:auto;
+	margin-top:0;
+	margin: 0em;
+	padding: 0em;
+}
+
+#barra_ferramentas {
+	margin:0 auto;
+	width:100%;
+	height:29px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.4en;
+	color:#000;
+	font-weight:bold;
+}
+
+#logo {
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	width:93.125%;
+	height:63px;
+    cursor: pointer;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+
+#menu {
+	margin-right:0.7em;
+	width:06.25%;
+	min-height:500px;
+	float:left;
+}
+
+
+#conteudo {
+	width:88.3125%;
+	min-height:749px;
+	background-color:#FFF;
+	border:#000 solid 1px;
+	float:left;
+	padding:20px;
+	overflow:auto;
+}
+
+		 
+		
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Divs e Id's  para resoliçãp de 1280     Media Queries  */ 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Divs e Id's  para resoliçãp de 1024       Media Queries*/ 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+
+#informacoes {
+	display:none;
+    }
+#container {
+    max-width:1024px;
+	height:auto;
+	margin: 0em;
+	padding: 0em;
+}
+
+#barra_ferramentas {
+	margin:0 auto;
+	width:100%;
+	height:29px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+}
+
+#logo {
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	width:93.125%;
+	height:63px;
+    cursor: pointer;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+
+#menu {
+	width:06.25%;
+	min-height:500px;
+	float:left;
+}
+
+
+#conteudo {
+	width:78.125%;
+	min-height:749px;
+	background-color: #FFF;
+	border:#000 solid 1px;
+	float:left;
+	padding:20px;
+	overflow:auto;
+}
+
+		 
+		
+    }
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Divs e Id's  para resoliçãp de 1024      Media Queries*/   
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+h1 {
+	font-size:1.4em;
+	color:#666;
+}
+
+#barra_identificacao {
+	padding: 5px;
+	float:left;
+}
+
+#barra_saida {
+	float:right;
+	padding: 5px 22px 5px 5px;
+	margin-right:5px;
+	background-image:url(/gecoi.3.0/img/exit.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+#barra_saida A:visited { color: #000; text-decoration: none;}
+#barra_saida A:link    { color: #000; text-decoration: none;}
+#barra_saida A:active  { color: #000; text-decoration: none;}
+#barra_saida A:hover   { color: #000; text-decoration: underline;}
+
+#div_banco {
+	padding: 5px;
+	float:left;
+}
+
+#logo_topo {
+	width:100%;
+	height:auto;
+}
+
+
+#trabalho{
+	width:100%;
+	height:800px;
+	clear:both;
+}
+
+
+#conteudo A {
+	color:#03F;
+}
+
+#conteudo A:visited { color: #777777; text-decoration: none; font-size:13px}
+#conteudo A:link    { color: #777777; text-decoration: none;font-size:13px}
+#conteudo A:active  { color: #777777; text-decoration: none;font-size:13px}
+#conteudo A:hover   { color: #777777; text-decoration: underline;font-size:13px;}
+
+#informacoes h1 {
+	font-size:1.4em;
+	color:#666;
+}
+
+#app{
+	width:162px;
+	height:211px;
+	margin-left:20px;
+	margin-bottom:20px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.4em;
+	text-align:center;
+	
+}
+
+#app img {
+	padding:10px;
+	margin-bottom:3px;
+}
+
+#app A:hover   { color: #395A7B; display:block; border:#A0A0A4 solid 1px; height:211px; text-decoration:none;}
+#app A:active  { color: #395A7B; height:211px; text-decoration:none;}
+#app A:visited { color: #395A7B; height:211px ;text-decoration: none}
+#app A:link    { color: #395A7B; height:211px; text-decoration: none}
+
+
+#app_globais {
+	text-align:center;
+}
+
+#app_globais img {
+	padding-bottom:10px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Classes */
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.invisivel { display:none; };  

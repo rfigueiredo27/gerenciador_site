@@ -1,0 +1,542 @@
+/* 
+Este css é utilizado par fotmatar uma tela de pesquisa com cabeçalho, menu e lista de itens.
+*/
+
+h2{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color: #999;
+	margin-bottom:10px;
+}
+#botao
+{
+	 width:350px;
+	 height:40px;
+	 padding-top:20px;
+	 clear:both;
+
+}
+
+#botao input[type="button"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background:#ECECEC;
+	color:#777777;
+	border:#777777 solid 1px;
+	height:32px;
+	width:120px;
+
+}
+
+/*----------------Incluir Parlatorio---------------*/
+
+#edicao_pdf
+{
+	 width:15%;
+	 float:left;
+
+}
+
+#edicao_pdf fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#edicao_pdf legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#edicao_pdf input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#edicao_pdf input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+#data_publicacao
+{
+	 width:22%;
+	 float:left;
+	 margin-left:2%;
+
+}
+#data_publicacao fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#data_publicacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#data_publicacao input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#data_publicacao input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+#caminho_flipbook
+{
+	 width:50%;
+	 float:left;
+
+}
+
+#caminho_flipbook fieldset
+{
+    width:91%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#caminho_flipbook legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#caminho_flipbook input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:90%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#caminho_flipbook input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+#arquivo_pdf
+{
+	 width:89%;
+	 height:100px;
+	 clear:both;
+
+}
+
+#arquivo_pdf fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#arquivo_pdf legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#arquivo_pdf input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#CCC;
+	text-align:center;
+	width:98%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#imagem_capa
+{
+	 width:89%;
+	 height:100px;
+	 clear:both;
+}
+
+#imagem_capa fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#imagem_capa legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#imagem_capa input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#CCC;
+	text-align:center;
+	width:98%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#campoArquivo
+{
+	 width:88%;
+	 height:20px;
+	 text-align:left;
+	 font-family: Tahoma, Arial, Helvetica, sans-serif;
+	 font-size:15px;
+	 color:#777777;
+	 font-weight:400;
+	 float:left;
+	 margin-left:10px;
+}
+
+/*----------------FIm---------------*/
+
+/*----------------Incluir Reportagem---------------*/
+#edicao_reportagem
+{
+	 width:15%;
+	 float:left;
+}
+
+#edicao_reportagem fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+	
+	min-width:10px;
+}
+#edicao_reportagem legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#edicao_reportagem input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+#edicao_reportagem input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+#secao_reportagem
+{
+	 width:30%;
+	 margin-left:3%;
+	 float:left;
+}
+
+#secao_reportagem fieldset
+{
+    width:90%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#secao_reportagem legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#secao_reportagem select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:left;
+	width:80%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+	border-radius:5px;
+}
+#secao_reportagem select:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#data_reportagem
+{
+	 width:25%;
+	 float:left;
+	 margin-left:3%;
+
+}
+#data_reportagem fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#data_reportagem legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#data_reportagem input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#data_reportagem input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+#titulo_reportagem
+{
+	 width:82%;
+	 height:100px;
+	 clear:both;
+
+}
+
+#titulo_reportagem fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#titulo_reportagem legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#titulo_reportagem input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:center;
+	width:95%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#subtitulo_reportagem
+{
+	 width:82%;
+	 height:100px;
+	 clear:both;
+
+
+}
+
+#subtitulo_reportagem fieldset
+{
+    width:95%;
+	height:80px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#subtitulo_reportagem legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#subtitulo_reportagem input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:center;
+	width:95%;
+	height:40px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#incluir_tv
+{
+	 width:82%;
+	 min-height:100px;
+	 clear:both;
+
+}
+
+#incluir_tv fieldset
+{
+    width:95%;
+	min-height:80px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#incluir_tv legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#incluir_tv input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:center;
+	width:95%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+/*----------------FIm---------------*/

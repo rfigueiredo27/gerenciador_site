@@ -1,0 +1,478 @@
+/* 
+Este css é utilizado par fotmatar uma tela de pesquisa com cabeçalho, menu e lista de itens.
+*/
+
+h2{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color: #999;
+	margin-bottom:10px;
+}
+#botao
+{
+	 width:350px;
+	 height:40px;
+	 padding-top:20px;
+	 clear:both;
+
+}
+
+#botao input[type="button"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background:#ECECEC;
+	color:#777777;
+	border:#777777 solid 1px;
+	height:32px;
+	width:120px;
+
+}
+#botao input[type="submit"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background:#ECECEC;
+	color:#777777;
+	border:#777777 solid 1px;
+	height:32px;
+	width:120px;
+
+}
+
+/*----------------Incluir Prestação de Contas---------------*/
+#personalizado
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:25px;
+	color:#777777;
+}
+
+#edital_ano
+{
+	 width:50%;
+	 float:left;
+	 margin-left:2%;
+
+}
+#edital_ano fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#edital_ano legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#edital_ano input[type="number"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+	width:45%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#edital_ano input[type="number"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+
+
+
+#prestacao_contas
+{
+	 width:47%;
+	 float:left;
+	 margin-left:2%;
+
+}
+#prestacao_contas fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#prestacao_contas legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#prestacao_contas input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#prestacao_contas input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+
+#partido_politico
+{
+	 width:47%;
+	 float:left;
+	 margin-left:2%;
+
+}
+#partido_politico fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#partido_politico legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#partido_politico input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#partido_politico input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+
+
+#balanco_arquivo
+{
+	 width:89%;
+	 height:100px;
+	 clear:both;
+
+}
+
+#balanco_arquivo fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#balanco_arquivo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#balanco_arquivo input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#CCC;
+	text-align:center;
+	width:98%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+
+#demonstrativo_arquivo
+{
+	 width:89%;
+	 height:100px;
+	 clear:both;
+
+}
+
+#demonstrativo_arquivo fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#demonstrativo_arquivo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#demonstrativo_arquivo input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#CCC;
+	text-align:center;
+	width:98%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+
+#prestacao_contas
+{
+	 width:89%;
+	 margin-left:2%;
+
+}
+
+#editar_arquivo fieldset
+{
+    width:95%;
+	min-height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#editar_arquivo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#ano_busca fieldset
+{
+    width:30%;
+	min-height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#ano_busca legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#ano_busca select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#777777;
+	text-align:center;
+	width:90%;
+	height:30px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+
+#altera_dados_prestacao fieldset
+{
+    width:95%;
+	min-height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_dados_prestacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+.destaque_edital
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight: 600;
+	color:#777777;
+	text-align: left;
+	margin:10px 10px 10px 50px;
+}
+
+#altera_anexo fieldset
+{
+    width:95%;
+	min-height:300px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_anexo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#altera_dados_anexo fieldset
+{
+    width:95%;
+	min-height:80px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#altera_dados_anexo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#descricao_anexo fieldset
+{
+    width:95%;
+	min-height:80px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#descricao_anexo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#descricao_anexo input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#descricao_anexo input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+#descricao_anexo input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:left;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#descricao_anexo select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:left;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}

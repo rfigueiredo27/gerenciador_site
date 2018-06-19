@@ -1,0 +1,464 @@
+
+.cinzaclaro9 {
+	font-family: Tahoma;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666666;
+	text-decoration: none;
+}
+
+		A.cinzaclaro9:visited { color: #666666; text-decoration: none}
+		A.cinzaclaro9:link {	color: #666666;	text-decoration: none} 
+		A.cinzaclaro9:active { color: #666666; text-decoration: none} 
+		A.cinzaclaro9:hover { color: #069DAA; text-decoration: none}
+
+.chumbo8 {
+	font-family: Tahoma;
+	font-size: 8px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+		A.chumbo8:visited { color: #333333; text-decoration: none}
+		A.chumbo8:link {	color: #333333;	text-decoration: none} 
+		A.chumbo8:active { color: #333333; text-decoration: none} 
+		A.chumbo8:hover { color: #069DAA; text-decoration: none}
+				
+.chumbo10 {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+		A.chumbo10:visited { color: #333333; text-decoration: none}
+		A.chumbo10:link {	color: #333333;	text-decoration: none} 
+		A.chumbo10:active { color: #333333; text-decoration: none} 
+		A.chumbo10:hover { color: #069DAA; text-decoration: none}
+		
+.chumbo10negrito {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+		A.chumbo10negrito:visited { color: #333333; text-decoration: none}
+		A.chumbo10negrito:link {	color: #333333;	text-decoration: none} 
+		A.chumbo10negrito:active { color: #333333; text-decoration: none} 
+		A.chumbo10negrito:hover { color: #069DAA; text-decoration: none}		
+		
+.chumbo11avisos {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+		A.chumbo11avisos:visited { color: #333333; text-decoration: none}
+		A.chumbo11avisos:link {	color: #333333;	text-decoration: none} 
+		A.chumbo11avisos:active { color: #333333; text-decoration: none} 
+		A.chumbo11avisos:hover { color: #069DAA; text-decoration: none}
+
+.chumbo11 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	text-align: justify;
+
+}
+
+		A.chumbo11:visited { color: #333333; text-decoration: none}
+		A.chumbo11:link {	color: #333333;	text-decoration: none} 
+		A.chumbo11:active { color: #333333; text-decoration: none} 
+		A.chumbo11:hover { color: #069DAA; text-decoration: none}
+		
+.chumbo11negrito {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+		A.chumbo11negrito:visited { color: #333333; text-decoration: none}
+		A.chumbo11negrito:link {	color: #333333;	text-decoration: none} 
+		A.chumbo11negrito:active { color: #333333; text-decoration: none} 
+		A.chumbo11negrito:hover { color: #069DAA; text-decoration: none}
+
+.sigla_texto {
+	font-family:Trebuchet MS;
+	font-size: 11px;
+	font-weight:normal;	
+	color:#333333;
+}
+
+		A.chumbo14:visited { color: #333333; text-decoration: none}
+		A.chumbo14:link {	color: #333333;	text-decoration: none} 
+		A.chumbo14:active { color: #333333; text-decoration: none} 
+		A.chumbo14:hover { color: #069DAA; text-decoration: none}		
+
+.sigla {
+	font-family: Trebuchet MS;
+	font-size: 25px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #034172;
+	text-decoration: none;
+}		
+
+.titulo_unidade {
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #034172;
+	text-decoration: none;
+}		
+
+.titulo_unidade_menor {
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #034172;
+	text-decoration: none;
+}
+
+.texto_unidade {
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+.titulos {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #367296;
+	text-decoration: none;
+}
+
+		A.titulos:visited { color: #367296; text-decoration: none}
+		A.titulos:link {	color: #367296;	text-decoration: none} 
+		A.titulos:active { color: #367296; text-decoration: none} 
+		A.titulos:hover { color: #069DAA; text-decoration: none}
+
+
+.texto_sub_unidade {
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #034172;
+	text-decoration: none;
+}
+		
+.vermelha11 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+
+		A.vermelha11:visited { color: #CC0000; text-decoration: none}
+		A.vermelha11:link {	color: #CC0000;	text-decoration: none} 
+		A.vermelha11:active { color: #CC0000; text-decoration: none} 
+		A.vermelha11:hover { color: #CC0000; text-decoration: none}
+
+.vermelha11negrito {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+
+		A.vermelha11negrito:visited { color: #CC0000; text-decoration: none}
+		A.vermelha11negrito:link {	color: #CC0000;	text-decoration: none} 
+		A.vermelha11negrito:active { color: #CC0000; text-decoration: none} 
+		A.vermelha11negrito:hover { color: #CC0000; text-decoration: none}
+		
+.vermelha10negrito {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+
+		A.vermelha10negrito:visited { color: #CC0000; text-decoration: none}
+		A.vermelha10negrito:link {	color: #CC0000;	text-decoration: none} 
+		A.vermelha10negrito:active { color: #CC0000; text-decoration: none} 
+		A.vermelha10negrito:hover { color: #CC0000; text-decoration: none}		
+
+.azul10negrito {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #0000FF;
+	text-decoration: none;
+}
+
+		A.azul10negrito:visited { color: #0000FF; text-decoration: none}
+		A.azul10negrito:link {	color: #0000FF;	text-decoration: none} 
+		A.azul10negrito:active { color: #0000FF; text-decoration: none} 
+		A.azul10negrito:hover { color: #0000FF; text-decoration: none}		
+
+.verde10negrito {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #009933;
+	text-decoration: none;
+}
+
+		A.verde10negrito:visited { color: #009933; text-decoration: none}
+		A.verde10negrito:link {	color: #009933;	text-decoration: none} 
+		A.verde10negrito:active { color: #009933; text-decoration: none} 
+		A.verde10negrito:hover { color: #009933; text-decoration: none}		
+		
+.branca10 {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+		A.branca10:visited { color: #FFFFFF; text-decoration: none}
+		A.branca10:link {	color: #FFFFFF;	text-decoration: none} 
+		A.branca10:active { color: #FFFFFF; text-decoration: none} 
+		A.branca10:hover { color: #FCE324; text-decoration: none}
+		
+.branca11 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+		A.branca11:visited { color: #FFFFFF; text-decoration: none}
+		A.branca11:link { color: #FFFFFF; text-decoration: none} 
+		A.branca11:active { color: #FFFFFF; text-decoration: none} 
+		A.branca11:hover { color: #B8F0F1; text-decoration: none}	
+
+.branca11negrito {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+		A.branca11negrito:visited {color: #FFFFFF; text-decoration: none}
+		A.branca11negrito:link {color: #FFFFFF;	text-decoration: none} 
+		A.branca11negrito:active {color: #FFFFFF; text-decoration: none} 
+		A.branca11negrito:hover {color: #B8F0F1; text-decoration: none}	
+		
+.branca12 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}	
+
+		A.branca12:visited { color: #FFFFFF; text-decoration: none}
+		A.branca12:link {	color: #FFFFFF;	text-decoration: none} 
+		A.branca12:active { color: #FFFFFF; text-decoration: none} 
+		A.branca12:hover { color: #B8F0F1; text-decoration: none}	
+		
+.link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: underline;
+}
+
+		A.link:visited { color: #333333; text-decoration: yes}
+		A.link:link {	color: #333333;	text-decoration: yes} 
+		A.link:active { color: #333333; text-decoration: yes} 
+		A.link:hover { color: #069DAA; text-decoration: yes}	
+		
+.sublinhado {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: underline;
+}
+
+.sublinhado_simples {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: underline;
+}
+
+		A.link:visited { color: #333333; text-decoration: yes}
+		A.link:link {	color: #333333;	text-decoration: yes} 
+		A.link:active { color: #333333; text-decoration: yes} 
+		A.link:hover { color: #069DAA; text-decoration: yes}	
+
+.btn_formulario
+{
+  background-color:#E8E8E8;
+  color:#666666;
+  font-family:Tahoma;
+  font-size:8pt;
+  border:black 1px solid;
+  border-color:#CCCCCC #666666 #666666 #CCCCCC;
+}
+
+.FORM {
+		font-family: Tahoma, Arial;
+		font-size:11px;
+		font-weight:20px;
+		color: #737373;
+		border-color: #6F6F6F;
+		border-style: solid;
+		border-width: 0px;
+		background-color: #DFDFDF;
+		}
+		
+.FORM2 {
+		font-family: Tahoma, Arial;
+		font-size:11px;
+		font-weight:20px;
+		color: #737373;
+		border-color: #DFDFDF;
+		border-style: solid;
+		border-width: 0px;
+		background-color: #DFDFDF;
+		}
+		
+.FORM3 {
+		font-family: Tahoma, Arial;
+		font-size:11px;
+		font-weight:20px;
+		color: #FFFFFF;
+		border-color: #7F7F7F;
+		border-style: solid;
+		border-width: 1px;
+		background-color: #089AAD;
+		}
+		
+.FORM3-1 {
+		font-family: Tahoma, Arial;
+		font-size:10px;
+		font-weight:20px;
+		color: #FFFFFF;
+		border-color: #7F7F7F;
+		border-style: solid;
+		border-width: 1px;
+		background-color: #CC0000;
+		}	
+		
+.FORM3-2 {
+		font-family: Tahoma, Arial;
+		font-size:10px;
+		font-weight:20px;
+		color: #FFFFFF;
+		border-color: #7F7F7F;
+		border-style: solid;
+		border-width: 1px;
+		background-color: #FF9900;
+		}			
+		
+.FORM4 {
+		font-family: Tahoma, Arial;
+		font-size:11px;
+		font-weight:20px;
+		color: #FFFFFF;
+		border-color: #7F7F7F;
+		border-style: solid;
+		border-width: 1px;
+		background-color: #089AAD;
+		}
+
+.justificado{
+			 text-align:justify;
+            }

@@ -1,0 +1,36 @@
+body {
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+}
+
+#texto p{
+	display:inline;	
+}
+
+#texto h1 {
+	font-size: 1.5em;
+	display:inline;
+}
+
+#texto h2 {
+	font-size: 1.3em;	
+	display:inline;
+}
+
+#texto ul{
+    margin:0;
+    padding:0;
+	line-height: 0px;
+	display:inline;	
+}
+
+.alerta {
+	font-weight: bold;
+	color: #FF0000
+}

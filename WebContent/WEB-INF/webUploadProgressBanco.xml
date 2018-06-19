@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	
+	<display-name>Composicao</display-name>
+
+	<!-- Declaracao do servlet do Spring MVC abaixo-->
+	
+	<servlet>
+		<servlet-name>GravarXML</servlet-name>
+		<servlet-class>br.jus.trerj.controle.composicao.GravaXML</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GravarXML</servlet-name>
+		<url-pattern>/gravaxml</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListarUsuarios</servlet-name>
+		<servlet-class>br.jus.trerj.controle.app.ListarUsuarios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListarUsuarios</servlet-name>
+		<url-pattern>/listaUsuarios</url-pattern>
+	</servlet-mapping>
+	
+  <servlet>
+    <servlet-name>GravaNovoCurriculo</servlet-name>
+    <servlet-class>br.jus.trerj.controle.curriculo.GravaNovoCurriculo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GravaNovoCurriculo</servlet-name>
+    <url-pattern>/GravaNovoCurriculo</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AlteraCurriculoTexto</servlet-name>
+    <servlet-class>br.jus.trerj.controle.curriculo.AlteraCurriculoTexto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AlteraCurriculoTexto</servlet-name>
+    <url-pattern>/AlteraCurriculoTexto</url-pattern>
+  </servlet-mapping>
+
+	
+  <servlet>
+    <servlet-name>AlteraCurriculoImg</servlet-name>
+    <servlet-class>br.jus.trerj.controle.curriculo.AlteraCurriculoImg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AlteraCurriculoImg</servlet-name>
+    <url-pattern>/AlteraCurriculoImg</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>GravaNovoDestaque</servlet-name>
+    <servlet-class>br.jus.trerj.controle.destaque.GravaNovoDestaque</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GravaNovoDestaque</servlet-name>
+    <url-pattern>/GravaNovoDestaque</url-pattern>
+  </servlet-mapping>
+	
+  <servlet>
+    <servlet-name>AlteraDestaqueBanner</servlet-name>
+    <servlet-class>br.jus.trerj.controle.destaque.AlteraDestaqueBanner</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AlteraDestaqueBanner</servlet-name>
+    <url-pattern>/AlteraDestaqueBanner</url-pattern>
+  </servlet-mapping>
+	
+  <servlet>
+    <servlet-name>IncluirAnexo</servlet-name>
+    <servlet-class>br.jus.trerj.controle.destaque.IncluirAnexo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IncluirAnexo</servlet-name>
+    <url-pattern>/IncluirAnexo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>incluirContrato</servlet-name>
+    <servlet-class>br.jus.trerj.controle.contrato.GravaNovoContrato</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>incluirContrato</servlet-name>
+    <url-pattern>/incluirContrato</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>UploadProgressBanco</servlet-name>
+    <servlet-class>teste.UploadProgressBanco</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadProgressBanco</servlet-name>
+    <url-pattern>/UploadProgressBanco</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+        <servlet-name>dwr-invoker</servlet-name>
+        <servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <init-param>
+            <param-name>logLevel</param-name>
+            <param-value>WARN</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dwr-invoker</servlet-name>
+        <url-pattern>/dwr/*</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+    <servlet-name>IncluirAditivo</servlet-name>
+    <servlet-class>br.jus.trerj.controle.contrato.IncluirAditivo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IncluirAditivo</servlet-name>
+    <url-pattern>/IncluirAditivo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SubstituiArquivo</servlet-name>
+    <servlet-class>br.jus.trerj.funcoes.SubstituiArquivoGecoi</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubstituiArquivo</servlet-name>
+    <url-pattern>/SubstituiArquivo</url-pattern>
+  </servlet-mapping>
+
+	  	
+</web-app>

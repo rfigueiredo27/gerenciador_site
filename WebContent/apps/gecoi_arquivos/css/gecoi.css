@@ -1,0 +1,244 @@
+#data_publicacao
+{
+	 width:30%;
+	 float:left;
+
+}
+#data_publicacao fieldset
+{
+    width:80%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#data_publicacao legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#data_publicacao input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#dataComplementar input[type="date"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#CCC;
+	text-align:center;
+	width:80%;
+	height:32px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#data_publicacao input[type="text"]:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+}
+
+#titulo
+{
+	 width:100%;
+	 height:100px;
+	 clear:both;
+	 text-align:left;
+
+}
+
+#titulo fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#titulo legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#titulo input[type="text"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#777777;
+	text-align:center;
+	width:95%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#arquivo_pdf
+{
+	 width:100%;
+	 height:100px;
+	 clear:both;
+
+}
+
+#arquivo_pdf fieldset
+{
+    width:95%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#arquivo_pdf legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+
+#arquivo_pdf input[type="file"]
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#CCC;
+	text-align:center;
+	width:98%;
+	height:28px;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+#selecionar_area
+{
+	 width:70%;
+	 float:left;
+}
+
+#selecionar_area fieldset
+{
+    width:90%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#selecionar_area legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#selecionar_area select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:left;
+	width:90%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+	border-radius:5px;
+}
+#selecionar_area select:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+
+#selecionar_ano
+{
+	 width:10%;
+	 float:left;
+}
+
+#selecionar_ano fieldset
+{
+    width:90%;
+	height:70px;
+	border:#cccccc solid 1px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:inline;
+	margin:10px 25px 10px 10px;
+	text-align:center;
+	border-radius:5px;
+}
+#selecionar_ano legend
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#777777;
+}
+#selecionar_ano select
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:left;
+	width:90%;
+	height:32px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+	border-radius:5px;
+}
+#selecionar_ano select:focus
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#777777;
+	text-align:center;
+	border-radius:5px;
+	background:#ECECEC;
+	border:#CECECE;
+	margin-top:8px;
+}
+
+

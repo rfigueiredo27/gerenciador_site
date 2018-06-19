@@ -1,0 +1,6 @@
+<bancos>
+	<banco>
+		<usuario>Tony</usuario>
+		<ambiente>producao</ambiente>
+	</banco>
+</bancos>
