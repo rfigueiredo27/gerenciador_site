@@ -30,7 +30,7 @@ $(document).ready(function(){
         <div id="data_publicacao">
       		<fieldset>
         	<legend>Data da publica&ccedil;&atilde;o</legend>
-    		<input title="Data da publica&ccedil;&atilde;o" alt="Data da publica&ccedil;&atilde;o" type="text" name="dataParlatorio" id="dataParlatorio" value="Publica&ccedil;&atilde;o" onfocus="this.value='<%=vhoje%>'" size="10" maxlength="10" />
+    		<input title="Data da publica&ccedil;&atilde;o" alt="Data da publica&ccedil;&atilde;o" type="text" name="dataParlatorio" id="dataParlatorio" value="Publica&ccedil;&atilde;o" onfocus="this.value=''" size="10" maxlength="10" />
             </fieldset>
         </div>
         <div id="caminho_flipbook">

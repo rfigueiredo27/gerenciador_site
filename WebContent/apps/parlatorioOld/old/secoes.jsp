@@ -1,9 +1,0 @@
-<option value="Capa">Capa</option>
-<option value="Em Foco">Em Foco</option>
-<option value="Zona de Contato">Zona de Contato</option>
-<option value="Perfil">Perfil</option>
-<option value="C&aacute; Entre N&oacute;s">C&aacute; Entre N&oacute;s</option>
-<option value="Colunas">Colunas</option>
-<option value="Outras Se&ccedil;;&otilde;es">Outras Se&ccedil;&otilde;es</option>
-<option value="V&iacute;deos">V&iacute;deos</option>
-<option value="Edi&ccedil;&otilde;es Anteriores">Edi&ccedil;&otilde;es Anteriores</option>

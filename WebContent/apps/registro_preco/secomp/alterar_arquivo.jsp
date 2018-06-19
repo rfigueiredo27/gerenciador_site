@@ -72,15 +72,14 @@ function atualizaTela()
 </script>
 
 <%
-String vidLicitacao = request.getParameter("idLicitacao");
-String vnProcesso = request.getParameter("nProcesso");
-String vnPregao = request.getParameter("nPregao");
-String vidConteudo = request.getParameter("id");
-//String vdescricao = "Pregão Eletrônico por Registro de Preço " + request.getParameter("nProcesso") + " - " + request.getParameter("descricao");
-String vdescricao = request.getParameter("descricao");
-String vidArquivo = request.getParameter("idArquivo");
-String vorigem = request.getParameter("origem");
-String vpagina = "/gecoi.3.0/apps/registro_preco/secomp/lista_registro.jsp?idLicitacao=" + vidLicitacao + "&nPregao=" + vnPregao + "&nProcesso=" + vnProcesso;
+vidLicitacao = request.getParameter("idLicitacao");
+vnProcesso = request.getParameter("nProcesso");
+vnPregao = request.getParameter("nPregao");
+vidConteudo = request.getParameter("id");
+vdescricao = request.getParameter("descricao");
+vidArquivo = request.getParameter("idArquivo");
+vorigem = request.getParameter("origem");
+vpagina = "/gecoi.3.0/apps/registro_preco/secomp/lista_registro.jsp?idLicitacao=" + vidLicitacao + "&nPregao=" + vnPregao + "&nProcesso=" + vnProcesso;
 %>
 <div id="altera_arquivo">
 <fieldset>

@@ -141,7 +141,6 @@ if (!varquivoHTML.equals("erro"))
         <!-- campo 1 -->
        	<select name="secaoAlteraReportagem" id="secaoAlteraReportagem">
 			<option value="0">-----------</option>
-            <%@include file="secoes.jsp"%>
  		</select>
 	</fieldset>
 </div>

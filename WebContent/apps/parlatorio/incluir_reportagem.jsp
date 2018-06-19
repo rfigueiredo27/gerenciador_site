@@ -24,9 +24,6 @@ function criticaReportagem()
 }
 
 </script>
-<%
-vsecao = "";
-%>
 
 <form name="fincReportagem" action="/gecoi.3.0/apps/parlatorio/processa_incluir_reportagem.jsp" method="post" target="rodape" enctype="multipart/form-data">
 <div id="edicao_reportagem">
@@ -40,7 +37,7 @@ vsecao = "";
     	<legend>Se&ccedil;&otilde;es</legend>
        	<select name="secaoReportagem" id="secaoReportagem">
 			<option value="0">-----------</option>
-            <%@include file="secoes.jsp"%>
+         
  		</select>
 	</fieldset>
 </div>
